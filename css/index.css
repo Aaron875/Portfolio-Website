@@ -1,0 +1,169 @@
+body
+{
+    background-color: darkblue;
+}
+
+header
+{
+    color: rgb(211, 162, 89);
+    text-align: center;
+}
+
+#Me
+{
+    height: 25%;
+    width: 15%;
+}
+
+h1
+{
+    font-size: 75px;
+}
+
+h2
+{
+    font-size: 40px;
+}
+
+.menu
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+.menu a 
+{
+    display: block;
+    background: rgb(211, 162, 89);
+    padding: 10px;
+    color: darkblue;
+    text-decoration: none;
+    transition: background-color 0.5s linear;
+}
+
+main
+{
+    color: darkblue;
+    background-color: rgb(211, 162, 89);
+    margin: auto 15%;
+}
+
+#about
+{
+    text-align: center;
+    margin-top: 2rem;
+    border-bottom: 4px solid darkblue;
+}
+
+#biotext
+{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+#galhead
+{
+    text-align: center;
+}
+
+li
+{
+    font-size: 20px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 2rem 3rem;
+}
+
+
+h3
+{
+    font-size: 33px;
+}
+
+
+
+footer
+{
+    background-color: rgb(211, 162, 89);
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+}
+
+a:link 
+{
+    color: darkblue; 
+}
+
+a:visited 
+{
+    color: red;
+} 
+
+a:focus 
+{
+    color: darkslateblue;
+}
+
+a:hover 
+{
+    color: darkslateblue;
+}
+
+a:active 
+{
+    color: black;
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:1355px)
+{
+    p
+    {
+        font-size: 17px;
+    }
+
+    #Me
+    {
+        height: 25%;
+        width: 35%;
+    }
+
+    #img2
+    {   
+        height: 65%;
+        width: 65%;
+    }
+
+    #img3, #img4, #img1, #img5, #img6
+    {   
+        width: 80%;
+    }
+
+    #project1, #project2,  #project3, #project4, #project5, #project6
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
