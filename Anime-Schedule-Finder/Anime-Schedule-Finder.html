@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+     <title>Anime Schedule Finder</title>
+     <link rel="stylesheet" type="text/css" href="styles/index.css" />
+     <script src="js/index.js"></script>
+      
+</head>
+<body>
+<header>
+ <h1>Anime Schedule Finder</h1>
+</header>
+
+<div id = "daysofweek">
+    <label for="days">Choose a day:</label>
+    <br>
+    <select name="days" id="days">
+        <option value="AllDays">AllDays</option>
+        <option value="monday">Monday</option>
+        <option value="tuesday">Tuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thursday">Thursday</option>
+        <option value="friday">Friday</option>
+        <option value="saturday">Saturday</option>
+        <option value="sunday">Sunday</option>
+    </select>
+</div>
+
+<br>
+
+<div id = "numberofsearches">
+    <label for="searches">Max Number of Results</label>
+    <br>
+    <select name="searches" id="searches">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+    </select>
+</div>
+
+
+<div id="genres">
+    <span>
+        <input type="radio" class="genre" id="action" name="genre" value="1" checked>
+        <label for="action"> Action</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="adventure" name="genre" value="2">
+        <label for="adventure"> Adventure</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="cars" name="genre" value="3">
+        <label for="cars"> Cars</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="comedy" name="genre" value="4">
+        <label for="comedy"> Comedy</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="demons" name="genre" value="6">
+        <label for="demons"> Demons</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="drama" name="genre" value="8">
+        <label for="drama"> Drama</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="ecchi" name="genre" value="9">
+        <label for="ecchi"> Ecchi</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="fantasy" name="genre" value="10">
+        <label for="fantasy"> Fantasy</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="horror" name="genre" value="14">
+        <label for="horror"> Horror</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="harem" name="genre" value="35">
+        <label for="harem"> Harem</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="josei" name="genre" value="43">
+        <label for="josei"> Josei</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="kids" name="genre" value="15">
+        <label for="kids"> Kids</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="magic" name="genre" value="16">
+        <label for="magic"> Magic</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="martialarts" name="genre" value="17">
+        <label for="martialarts"> Martial Arts</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="mecha" name="genre" value="18">
+        <label for="mecha"> Mecha</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="military" name="genre" value="38">
+        <label for="military"> Military</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="music" name="genre" value="19">
+        <label for="music"> Music</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="mystery" name="genre" value="7">
+        <label for="mystery"> Mystery</label>
+    </span>
+    
+    <span>
+        <input type="radio" class="genre" id="parody" name="genre" value="20">
+        <label for="parody"> Parody</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="police" name="genre" value="39">
+        <label for="police"> Police</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="psychological" name="genre" value="40">
+        <label for="psychological"> Psychological</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="romance" name="genre" value="22">
+        <label for="romance"> Romance</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="samurai" name="genre" value="21">
+        <label for="samurai"> Samurai</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="school" name="genre" value="23">
+        <label for="school"> School</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="scifi" name="genre" value="24">
+        <label for="scifi"> Sci Fi</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="seinen" name="genre" value="42">
+        <label for="seinen"> Seinen</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="shoujo" name="genre" value="25">
+        <label for="shoujo"> Shoujo</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="shounen" name="genre" value="27">
+        <label for="shounen"> Shounen</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="sliceoflife" name="genre" value="36">
+        <label for="sliceoflife"> Slice Of Life</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="space" name="genre" value="29">
+        <label for="space"> Space</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="sports" name="genre" value="30">
+        <label for="sports"> Sports</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="supernatural" name="genre" value="37">
+        <label for="supernatural"> Supernatural</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="thriller" name="genre" value="41">
+        <label for="thriller"> Thriller</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="yaoi" name="genre" value="33">
+        <label for="yaoi"> Yaoi</label>
+    </span>
+
+    <span>
+        <input type="radio" class="genre" id="yuri" name="genre" value="34">
+        <label for="yuri"> Yuri</label>
+    </span>
+
+</div>
+
+<p id="button"><button type="button" id="search" class="green">Search!</button></p>
+<p id="debug"></p>
+<hr>
+<h2>Results</h2>
+ <div id="content">
+    <p id ="data">No data yet!</p>
+    <div id = "allinfo"> </div>
+    <p id = "doclink"><a href='Documentation.html'>Documentation Page</a></p>
+ </div>
+ 
+</body> 
+</html>

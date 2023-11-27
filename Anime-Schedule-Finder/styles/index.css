@@ -1,0 +1,186 @@
+body
+{
+    background-image: url('../images/vaporwave.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    color: rgb(42, 255, 255);
+}
+
+#content
+{
+    border: 5px solid  rgb(255, 97, 255);
+    margin: auto 5%;
+    background-color: rgba(120, 0, 201, 0.301);
+}
+
+#allbutimg
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+    background-color: rgba(48, 0, 80, 0.671);
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+#infofor1
+{
+    border-bottom: 5px solid rgb(255, 97, 255);
+}
+
+.images
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+a
+{
+    font-size: 120%;
+    margin: auto 35%;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:hover
+{
+    color: rgb(255, 17, 17);
+}
+
+a:visited
+{
+    color: rgb(255, 0, 212);
+}
+
+a:active
+{
+    color: rgb(163, 64, 255);
+}
+
+h4
+{
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+#synopsis
+{
+    display: block;
+    margin-bottom: 5%;
+    margin-top: auto;
+}
+
+#numresults
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+header
+{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(28, 107, 255), rgb(255, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2
+{
+    font-size: 250%;
+    margin-left: 7%;
+}
+
+#data
+{
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 5px solid rgb(255, 97, 255);
+}
+
+#genres
+{
+    display: flex;
+    border: 5px solid  rgb(255, 97, 255);
+    background-color: rgba(121, 0, 201, 0.74);
+    flex-wrap: wrap;
+    margin: 3% 10%;
+}
+
+#numberofsearches
+{
+    text-align: center;
+}
+
+#daysofweek
+{
+    text-align: center;
+}
+
+label
+{
+    font-size: 180%;
+    margin-right: 15px;
+}
+
+input[type=radio] {
+    transform: scale(1.5);
+}
+
+.genres span
+{
+    margin: auto 10px;
+}
+
+#nogenre
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+#days
+{
+    width: 110px;
+    height: 70px;
+    background-image: linear-gradient(to bottom right, rgb(28, 107, 255), rgb(255, 97, 255));
+}
+
+#searches
+{
+    width: 70px;
+    height: 30px;
+    background-image: linear-gradient(to bottom right, rgb(28, 107, 255), rgb(255, 97, 255));
+}
+
+button {
+    font-size: 40px;
+    background-image: linear-gradient(to bottom right, rgb(28, 107, 255), rgb(255, 97, 255));
+}
+
+#button
+{
+    text-align: center; 
+}
+
+#debug
+{
+    font-size: 250%;
+    margin-left: 7%;
+}
+
+#doclink
+{
+    text-align: center;
+    font-size: 160%;
+}
+
