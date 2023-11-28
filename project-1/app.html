@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dota 2 Hero Stats Application</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type = "module" src = "src/init.js"></script>
+  <script type = "module" src = "src/app.js"></script>
+</head>
+<body class = "has-background-black">
+
+  
+  <app-navbar></app-navbar>
+
+  <!-- product info -->
+  <section class="section has-background-black">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class = "box has-background-danger-dark column is-full">
+          <div class="columns is-multiline">
+            <div class="column is-full">
+              <p class="has-text-black has-text-centered is-size-3">Search By Primary Attribute</p>
+            </div>
+
+            <div class="control column is-full has-text-centered">
+              <label class="radio">
+                <input type="radio" name="attribute" id = "strength" class = "image is-32x32 is-inline-block has-text-centered">
+                <img class = "image is-128x128 is-rounded has-text-centered" src="images/alexandra-bisson-001-str.jpg" alt="Strength Attribute">
+              </label>
+              <label class="radio">
+                <input type="radio" name="attribute" id = "agility" class = "image is-32x32 is-inline-block has-text-centered">
+                <img class = "image is-128x128 is-rounded has-text-centered" src="images/alexandra-bisson-002-agi.jpg" alt="Agility Attribute">
+              </label>
+              <label class="radio">
+                <input type="radio" name="attribute" id = "intelligence" class = "image is-32x32 is-inline-block has-text-centered">
+                <img class = "image is-128x128 is-rounded has-text-centered" src="images/alexandra-bisson-003-int.jpg" alt="Intelligence Attribute">
+              </label>
+            </div>
+
+            <div class="column is-full">
+              <p class="has-text-black has-text-centered is-size-3">Search By Hero Name</p>
+              <p class="has-text-black has-text-centered is-size-5">(If this field has a correct hero name within, the app will not search by atribute)</p>
+            </div>
+            <div class="column is-full">
+              <input class="input is-rounded has-text-centered" type="text" id = "name-search">
+            </div>
+            
+            <div class="column is-full has-text-centered">
+              <button class="button is-large is-success" id = "search">SEARCH</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="columns is-multiline" id = "column-manager"></div>
+      <p class="subtitle has-text-centered has-text-danger-dark" id="output">
+        
+      </p>
+    </div>
+  </section>
+
+  <my-footer></my-footer>
+
+</body>
+</html>
