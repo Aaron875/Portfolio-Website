@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attractor Audio Visualizer Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type = "module" src = "src/init.js"></script>
+</head>
+<body class = "has-background-black">
+
+  
+  <app-navbar></app-navbar>
+
+  <!-- product info -->
+  <section class="section">
+    <div class="container">
+      <div class = "columns is-multiline">
+        <div class="column is-full">
+          <div class="is-large is-info p-2 has-text-centered">
+              <p class="title has-text-danger-dark">
+                Attractor Audio Visualizer
+              </p>
+          </div>
+        </div>
+        <div class="column is-quarter"></div>
+        <div class = "column is-half has-text-centered">
+          <img src="images/attractor.gif" alt="Lorenz Attractor">
+        </div>
+        <div class="column is-quarter"></div>
+        <div class="column is-full">
+          <div class="is-size-4 is-info has-text-centered">
+            <p class="has-text-danger-dark">
+              This application creates a Lorenz Attractor within a 3-D environment.
+              You are able to effect these attractors by playing diffrent mp3 tracks. These tracks will change
+              specific values within the attractors formula to create a unique image with each track you play.
+            </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <my-footer></my-footer>
+
+</body>
+</html>

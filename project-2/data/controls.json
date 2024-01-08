@@ -1,0 +1,16 @@
+{
+    "playButton":"Play",
+    "tracks" :{
+        "one": "audio/The Only Thing I Know for Real - Maniac Agenda Mix.mp3",
+        "two": "audio/no more kings - critical hit.mp3",
+        "three": "audio/TheFatRat-Arcadia.mp3"
+    },
+    "vSlider": "0.5",
+    "vLabel": "25",
+    "xOn": "off",
+    "yOn": "off",
+    "zOn": "off",
+    "xOperation": "Subtract",
+    "yOperation": "Subtract",
+    "zOperation": "Subtract"
+}
