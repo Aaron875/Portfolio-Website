@@ -18,7 +18,7 @@ footer{
 
     <div class= "columns is-gapless mx-6">
         <div class="column is-one-fifth">
-            <a class="button is-info  is-rounded has-text-danger-dark is-medium" href = "https://people.rit.edu/amc3047/235/Project1/index.html" target = "_blank">&copy; 2022 Aaron Cummings</a>
+            <a class="button is-info  is-rounded has-text-danger-dark is-medium" href = "https://aaron875.github.io/Portfolio-Website" target = "_blank">&copy; 2022 Aaron Cummings</a>
         </div>
         <div class="column is-one-fifth">
         </div>

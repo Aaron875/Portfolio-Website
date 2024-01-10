@@ -15,7 +15,7 @@ footer{
 
 <footer>
   <div class = "has-text-centered is-size-4">
-        <a href = "https://people.rit.edu/amc3047/235/Project1/index.html" target = "_blank">&copy; 2022 Aaron Cummings</a>
+        <a href = "https://aaron875.github.io/Portfolio-Website" target = "_blank">&copy; 2022 Aaron Cummings</a>
     </div>
 </footer>
 
